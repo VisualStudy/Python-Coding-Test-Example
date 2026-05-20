@@ -7,11 +7,11 @@
 
 # 시급 = 급여 / 총 일한 시간
 
-# money 만큼의 급여를 받은 사람이 하루 hour시간 만큼 일하며 총 week일 만큼 일했다고 한다면 시급은?
+# money 만큼의 급여를 받은 사람이 하루 hour시간 만큼 일하며 총 day일 만큼 일했다고 한다면 시급은?
 
 money = 890000
 hour = 7
-week = 15
+day = 15
 
-hour_wage = money / (hour * week)
+hour_wage = money / (hour * day)
 print(hour_wage)
