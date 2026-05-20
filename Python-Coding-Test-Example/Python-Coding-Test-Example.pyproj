@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>37d83f43-4962-488e-b5d1-0a7be4bafe28</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Coding_Test_Example.py</StartupFile>
+    <StartupFile>PCCE\hour_wage.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

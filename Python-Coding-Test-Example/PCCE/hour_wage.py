@@ -6,3 +6,12 @@
 # 이는 급여 지급의 조건(월 기준인지 주 기준인지)에 따라 달라진다.
 
 # 시급 = 급여 / 총 일한 시간
+
+# money 만큼의 급여를 받은 사람이 하루 hour시간 만큼 일하며 총 week일 만큼 일했다고 한다면 시급은?
+
+money = 890000
+hour = 7
+week = 15
+
+hour_wage = money / (hour * week)
+print(hour_wage)
