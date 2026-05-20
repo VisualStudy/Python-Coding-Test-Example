@@ -38,6 +38,8 @@ Python-Coding-Test-Example
 ├── Python-Coding-Test-Example.slnx
 └── README.md
 
+```
+
 ## 🧩 Example
 
 ### 시급 계산 예제
