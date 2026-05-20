@@ -22,6 +22,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PCCE\hour_wage.py" />
+    <Compile Include="PCCE\hour_wage_money.py" />
+    <Compile Include="PCCE\water_rocket.py" />
     <Compile Include="Python_Coding_Test_Example.py" />
   </ItemGroup>
   <ItemGroup>
