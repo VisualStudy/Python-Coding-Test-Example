@@ -10,3 +10,11 @@ def calculate_height(initial_velocity):
     height = (initial_velocity ** 2) / (2 * g)
 
     return height
+
+# 예시: 물로켓의 초기 속도가 30m/s일 때
+v0 = 30 # m/s
+
+max_height = calculate_height(v0)
+
+print("초기 속도:", v0, "m/s")
+print("예상 최대 높이:", round(max_height, 2), "m")
