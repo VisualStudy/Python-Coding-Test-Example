@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>37d83f43-4962-488e-b5d1-0a7be4bafe28</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PCCE\hour_wage_money.py</StartupFile>
+    <StartupFile>PCCE\HourWage\hour_wage_money.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PCCE\hour_wage.py" />
-    <Compile Include="PCCE\hour_wage_money.py" />
+    <Compile Include="PCCE\HourWage\hour_wage.py" />
+    <Compile Include="PCCE\HourWage\hour_wage_money.py" />
     <Compile Include="PCCE\water_rocket.py" />
     <Compile Include="Python_Coding_Test_Example.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PCCE\" />
+    <Folder Include="PCCE\HourWage\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
