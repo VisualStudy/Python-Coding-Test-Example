@@ -23,12 +23,13 @@
   <ItemGroup>
     <Compile Include="PCCE\HourWage\hour_wage.py" />
     <Compile Include="PCCE\HourWage\hour_wage_money.py" />
-    <Compile Include="PCCE\water_rocket.py" />
+    <Compile Include="PCCE\Science\water_rocket.py" />
     <Compile Include="Python_Coding_Test_Example.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PCCE\" />
     <Folder Include="PCCE\HourWage\" />
+    <Folder Include="PCCE\Science\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
